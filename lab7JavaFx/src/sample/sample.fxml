@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="69.0" layoutY="59.0" mnemonicParsing="false" onAction="#btnUndergraduateStudents" prefHeight="74.0" prefWidth="212.0" text="Undergraduate Student...">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="310.0" layoutY="372.0" mnemonicParsing="false" onAction="#btnClose" prefHeight="74.0" prefWidth="212.0" text="Close..." />
+      <Button layoutX="69.0" layoutY="166.0" mnemonicParsing="false" onAction="#btnUndergraduateRegistrations" prefHeight="74.0" prefWidth="212.0" text="Undergraduate Registrations..." />
+      <Button layoutX="310.0" layoutY="274.0" mnemonicParsing="false" onAction="#btnGraduateMajors" prefHeight="74.0" prefWidth="212.0" text="Graduate Majors..." />
+      <Button layoutX="69.0" layoutY="274.0" mnemonicParsing="false" onAction="#btnUndergraduateMajors" prefHeight="74.0" prefWidth="212.0" text="Undergraduate Majors..." />
+      <Button layoutX="69.0" layoutY="372.0" mnemonicParsing="false" onAction="#btnEmployees" prefHeight="74.0" prefWidth="212.0" text="Employees..." />
+      <Button layoutX="310.0" layoutY="166.0" mnemonicParsing="false" onAction="#btnGraduateRegistrations" prefHeight="74.0" prefWidth="212.0" text="Graduate Registrations..." />
+      <Button layoutX="310.0" layoutY="59.0" mnemonicParsing="false" onAction="#btnGraduateStudents" prefHeight="74.0" prefWidth="212.0" text="Graduate Student..." />
+   </children>
+</AnchorPane>

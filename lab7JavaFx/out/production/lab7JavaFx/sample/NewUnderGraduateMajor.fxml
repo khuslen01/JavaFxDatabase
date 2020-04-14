@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.NewUnderGraduateMajor">
+   <children>
+      <Label layoutX="33.0" layoutY="36.0" prefHeight="37.0" prefWidth="96.0" text="Major:" />
+      <Label layoutX="33.0" layoutY="90.0" prefHeight="37.0" prefWidth="96.0" text="Dean:" />
+      <TextField layoutX="132.0" layoutY="41.0" />
+      <ComboBox layoutX="125.0" layoutY="95.0" prefHeight="27.0" prefWidth="327.0" />
+      <Button layoutX="271.0" layoutY="143.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Ok" />
+      <Button layoutX="367.0" layoutY="143.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" text="Cancel" />
+   </children>
+</AnchorPane>
